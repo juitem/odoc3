@@ -15,7 +15,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<DashboardPage />} />
         <Route path="us-stocks" element={<USStockListPage />} />
-        <Route path="kr-stocks" e lement={<KRStockListPage />} />
+        <Route path="kr-stocks" element={<KRStockListPage />} />
         <Route path="us-chart" element={<USChartPage />} />
         <Route path="kr-chart" element={<KRChartPage />} />
         <Route path="notes" element={<NotesPage />} />
