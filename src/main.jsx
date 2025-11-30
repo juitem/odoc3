@@ -14,7 +14,7 @@ const darkTheme = createTheme({
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/odoc3">
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
         <App />
